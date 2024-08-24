@@ -1,0 +1,31 @@
+#DICCIONARIO PALABRAS MODERNAS
+for i in range (5):
+    
+    meme_dict = {
+                "CRINGE": "Algo excepcionalmente raro o embarazoso",
+                "LOL": "Una respuesta común a algo gracioso","SHEESH" : "ligera desaprobación",
+    "CREEPY": "aterrador, siniestro",
+    "AGGRO" : "ponerse agresivo/enojado"
+                }
+                
+    for i in range(len(meme_dict)):
+        print(meme_dict.keys()[i])
+                
+                
+    word = input("Escribe una palabra que no entiendas (¡con mayúsculas!): ")
+    if word == "LOL":
+        print ("una respuesta a algo gracioso")
+        print ("-"*30)
+    if word == "CRINGE":
+        print ("Algo excepcionalmente raro o embarazoso")
+        print ("-"*30)
+        
+    if word == "AGGRO":
+        print ("ponerse agresivo/enojado")
+        print ("-"*30)
+    if word == "SHEESH": 
+        print ("ligera desaprobación")
+        print ("-"*30)
+    if word == "CREEPY":
+        print (" aterrador, siniestro")
+        print ("-"*30)
